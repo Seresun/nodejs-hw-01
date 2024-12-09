@@ -1,26 +1,19 @@
 import { readContacts } from '../utils/readContacts.js';
 import { writeContacts } from '../utils/writeContacts.js';
-import { faker } from '@faker-js/faker';
+import { createFakeContact } from '../utils/createFakeContact.js';
 
-const addOneContact = async () => {
+export const addContact = async () => {
   try {
     const contacts = await readContacts();
 
-    const newContact = {
-      id: faker.datatype.uuid(),
-      name: faker.name.fullName(),
-      email: faker.internet.email(),
-      phone: faker.phone.number(),
-    };
+    const newContact = createFakeContact();
 
     contacts.push(newContact);
 
     await writeContacts(contacts);
 
-    console.log('Контакт успешно добавлен:', newContact);
+    console.log('Новый контакт добавлен:', newContact);
   } catch (error) {
-    console.error('Ошибка добавления контакта:', error.message);
+    console.error('Ошибка при добавлении контакта:', error.message);
   }
 };
-
-addOneContact();
