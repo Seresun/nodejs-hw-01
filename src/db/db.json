@@ -33,5 +33,35 @@
     "phone": "699-531-1211 x0373",
     "email": "Marquis_Lynch@hotmail.com",
     "job": "Product Optimization Executive"
+  },
+  {
+    "id": "fc6b847e-8f5d-41e8-8214-252ad36372d5",
+    "name": "Stuart Becker",
+    "email": "Justine45@hotmail.com",
+    "phone": "(360) 402-0215 x1140"
+  },
+  {
+    "id": "b25e376a-3012-424b-9e13-e00a00663e0e",
+    "name": "Miss Beverly Boyer V",
+    "email": "Antonietta_Ward@gmail.com",
+    "phone": "509.503.0547 x4570"
+  },
+  {
+    "id": "355a59fb-e28d-4cb3-be44-0649e5b1483f",
+    "name": "Inez Nolan",
+    "email": "Angela25@yahoo.com",
+    "phone": "945.484.3770 x9192"
+  },
+  {
+    "id": "f8f50827-975c-4b35-b193-f107cf290efd",
+    "name": "Della Bosco",
+    "email": "Leonie.Stoltenberg18@gmail.com",
+    "phone": "628-309-0719 x1480"
+  },
+  {
+    "id": "53522f1a-1e33-4f8d-a89a-8959c6f77d1e",
+    "name": "Ms. Dora Effertz-Hills",
+    "email": "Ricardo9@gmail.com",
+    "phone": "(816) 612-5345 x7942"
   }
 ]

@@ -17,3 +17,5 @@ export const addContact = async () => {
     console.error('Ошибка при добавлении контакта:', error.message);
   }
 };
+
+addContact();
